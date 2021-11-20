@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from "../components/Header";
-import Nav from "../components/Nav";
+import Header from "../components/header";
+import Nav from "../components/nav";
 import Results from "../components/results";
 import request from "../utils/request";
 

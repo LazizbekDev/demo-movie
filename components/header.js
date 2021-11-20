@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 import logo from '../images/logo1.png'
-import HeaderItem from "./HeaderItem";
+import HeaderItem from "./header-item";
 import {
     BadgeCheckIcon,
     CollectionIcon,
