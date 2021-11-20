@@ -22,7 +22,7 @@ const Header = () => {
                 <HeaderItem Icon={SearchIcon} title={'SEARCH'} />
                 <HeaderItem Icon={UserIcon} title={'ACCOUNT'} />
             </div>
-            <Image src={logo} className={'object-contain'} width={200} height={80}/>
+            <Image src={logo} alt={'req'} className={'object-contain'} width={200} height={80}/>
         </header>
     );
 };

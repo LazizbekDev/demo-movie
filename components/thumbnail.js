@@ -1,8 +1,8 @@
-import React, {forwardRef} from 'react';
+import React from 'react';
 import Image from "next/image";
 import {ThumbUpIcon} from "@heroicons/react/outline";
 
-const Thumbnail = forwardRef(({ result }, ref) => {
+const Thumbnail = ({ result }, ref) => {
     const myLoader = ({ src, width, quality }) => {
         return `https://themoviedb.org/t/p/original/${src}?w=${width}&q=${quality || 75}`
     }
@@ -29,6 +29,6 @@ const Thumbnail = forwardRef(({ result }, ref) => {
             </div>
         </div>
     );
-});
+};
 
 export default Thumbnail;
